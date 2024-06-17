@@ -1,0 +1,35 @@
+programa Exemplo
+
+declaracoes
+    inteiro a, b, resultado;
+    cadeia mensagemgrandeosuficientecommaisde30chars; // teste truncagem de 30 caracteres
+fimDeclaracoes
+
+funcoes= // "=" caracter fora da linguagem para teste de filtragem
+    tipoFuncao vazio exemploFuncao(cadeia parametro) {
+        imprime("Executando a funcao exemploFuncao");
+        // Comentario de linha teste
+        a := 10;
+        b := 20;
+        se a > b
+            resultado := a;
+        senao
+            resultado := b;
+        fimSe
+        retorna;
+    }
+fimfuncoes
+
+enquanto a <= b
+    // Loop exemplo
+    a := a + 1;
+    b := b - 1;
+    imprime("Dentro do loop enquanto");
+    /*
+    Comentario de bloco teste
+    */
+fimenquanto // atomo propositalmente em caixa baixa para teste
+
+imprime("Resultado final: ", resultado);
+
+FIMPROGRAMA // atomo propositalmente em caixa alta para teste
