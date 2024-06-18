@@ -2,16 +2,15 @@
 
 ## Descrição do Projeto
 
-Este projeto é um analisador léxico que processa arquivos de código fonte escritos na linguagem NikoBoko2024-1, identificando átomos e gerando relatórios detalhados de análise léxica e da tabela de símbolos.
+Este projeto implementa um analisador léxico e sintático que processa arquivos de código fonte escritos na linguagem NikoBoko2024-1. O analisador léxico identifica e classifica os tokens no código-fonte, enquanto o analisador sintático organiza esses tokens em uma estrutura lógica.
 
 ## Estrutura do Projeto
 
 O projeto é composto pelos seguintes arquivos:
 
-- `nikoboko.py`: Script principal que coordena a leitura do arquivo fonte, a chamada da análise léxica e a geração dos relatórios.
-- `analisador_lexico.py`: Contém as funções para análise léxica do texto fonte e geração do relatório `.LEX`.
-- `analisador_sintatico.py`: Define as regras e padrões para identificar átomos no texto fonte.
-- `tabela_simbolos.py`: Gerencia a tabela de símbolos, incluindo inicialização, adição e atualização de símbolos, e geração do relatório `.TAB`.
+- `analisador_lexico.py`: Responsável por analisar o código-fonte e identificar os tokens.
+- `analisador_sintatico.py`: Define as regras, ler arquivo e gera relatórios `.LEX` e `.TAB` com base nos tokens identificados, basicamente o Script principal.
+- `tabela_simbolos.py`: Gerencia a tabela de símbolos, incluindo inicialização, adição e atualização de símbolos.
 
 ## Uso
 
@@ -28,10 +27,10 @@ git clone <URL do repositório>
 cd <diretório do projeto>
 ```
 
-2. Execute o script principal nikoboko.py.
+2. Execute o script principal analisador_sintatico.py.
 
 ```
-python nikoboko.py
+python analisador_sintatico.py
 ```
 
 3. Quando solicitado, insira o nome do arquivo fonte (sem extensão). O arquivo deve estar no mesmo diretório do script principal e ter a extensão .241.
@@ -43,27 +42,22 @@ python nikoboko.py
 
 ## Detalhes do Código
 
-`nikoboko.py`
-
-- Lê o arquivo fonte especificado pelo usuário.
-- Realiza a análise léxica utilizando a função analisar_lexico do módulo analisador_lexico.
-- Gera relatórios .LEX e .TAB contendo detalhes da análise léxica e da tabela de símbolos, respectivamente.
-
 `analisador_lexico.py`
 
-- Define a função analisar_lexico que percorre o texto fonte, identificando átomos e gerenciando a tabela de símbolos.
-- Contém a função gerar_relatorio_lex que cria o relatório .LEX com informações detalhadas dos átomos identificados.
+- Prioriza a identificação de comentários de bloco e linha, seguido por palavras reservadas e variáveis e inicializa a tabela de palavras reservadas.
+- Define a função identificar_atom que utiliza expressões regulares para identificar diferentes tipos de átomos no texto fonte.
+- Define a função analisar_lexico que percorre o texto fonte, analisando átomos presentes e os trata.
 
 `analisador_sintatico.py`
 
-- Define a função identificar_atom que utiliza expressões regulares para identificar diferentes tipos de átomos no texto fonte.
-- Prioriza a identificação de comentários de bloco e linha, seguido por palavras reservadas e variáveis.
+- Lê o arquivo fonte especificado pelo usuário.
+- Realiza a análise léxica utilizando a função `analisar_lexico` do módulo `analisador_lexico`.
+- Gera relatórios `.LEX` e `.TAB` contendo detalhes da análise léxica e da tabela de símbolos, respectivamente.
 
 `tabela_simbolos.py`
 
-- Define a estrutura da tabela de símbolos e inicializa a tabela de palavras reservadas.
-- Contém funções para adicionar e atualizar símbolos na tabela.
-- Inclui a função gerar_relatorio_tab que cria o relatório .TAB com informações detalhadas da tabela de símbolos.
+- Define a estrutura da tabela de símbolos.
+- Contém funções para inicializar, adicionar e atualizar símbolos na tabela.
 
 ## Contribuidores
 
