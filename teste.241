@@ -5,7 +5,7 @@ declaracoes
     cadeia mensagemgrandeosuficientecommaisde30chars; // teste truncagem de 30 caracteres
 fimDeclaracoes
 
-funcoes= // "=" caracter fora da linguagem para teste de filtragem
+funcoes_= // "=" caracter fora da linguagem para teste de filtragem e _ para teste de escopo
     tipoFuncao vazio exemploFuncao(cadeia parametro) {
         imprime("Executando a funcao exemploFuncao");
         // Comentario de linha teste

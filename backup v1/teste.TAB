@@ -1,0 +1,77 @@
+Código da Equipe: 5
+    Componentes:
+        Carlos Henrique Racobaldo Luz Montes; carlos.montes@aln.senaicimatec.edu.br; (75)981133861
+        Luiz Guilherme Guerreiro Carvalho; luiz.carvalho@aln.senaicimatec.edu.br; (71)999141910
+        Maria Eduarda Lopes de Morais Brito; maria.brito@aln.senaicimatec.edu.br; (71)992262193
+        Mateus Torres Barreto; mateus.torres@aln.senaicimatec.edu.br; (75)98103-6459
+
+RELATÓRIO DA TABELA DE SÍMBOLOS. Texto fonte analisado: teste.241
+--------------------------------------------------------------------------------
+Entrada: 1, Código: C03, Lexeme: 4,
+QtdCharAntesTrunc: 1, QtdCharDepoisTrunc: 1,
+TipoSimb: Identificador, Linhas: (1)
+--------------------------------------------------------------------------------
+Entrada: 2, Código: C07, Lexeme: _azul,
+QtdCharAntesTrunc: 5, QtdCharDepoisTrunc: 5,
+TipoSimb: Identificador, Linhas: (1)
+--------------------------------------------------------------------------------
+Entrada: 3, Código: C03, Lexeme: 3,
+QtdCharAntesTrunc: 1, QtdCharDepoisTrunc: 1,
+TipoSimb: Identificador, Linhas: (1)
+--------------------------------------------------------------------------------
+Entrada: 4, Código: C06, Lexeme: Ex3mplo,
+QtdCharAntesTrunc: 7, QtdCharDepoisTrunc: 7,
+TipoSimb: Identificador, Linhas: (1)
+--------------------------------------------------------------------------------
+Entrada: 5, Código: C07, Lexeme: a,
+QtdCharAntesTrunc: 1, QtdCharDepoisTrunc: 1,
+TipoSimb: Identificador, Linhas: (4, 12, 14, 15, 23)
+--------------------------------------------------------------------------------
+Entrada: 6, Código: C07, Lexeme: b,
+QtdCharAntesTrunc: 1, QtdCharDepoisTrunc: 1,
+TipoSimb: Identificador, Linhas: (4, 13, 14, 17, 23)
+--------------------------------------------------------------------------------
+Entrada: 7, Código: C07, Lexeme: resultado,
+QtdCharAntesTrunc: 9, QtdCharDepoisTrunc: 9,
+TipoSimb: Identificador, Linhas: (4, 15, 17, 33)
+--------------------------------------------------------------------------------
+Entrada: 8, Código: C07, Lexeme: mensagemgrandeosuficientecomma,
+QtdCharAntesTrunc: 41, QtdCharDepoisTrunc: 30,
+TipoSimb: Identificador, Linhas: (5)
+--------------------------------------------------------------------------------
+Entrada: 9, Código: C07, Lexeme: _,
+QtdCharAntesTrunc: 1, QtdCharDepoisTrunc: 1,
+TipoSimb: Identificador, Linhas: (8)
+--------------------------------------------------------------------------------
+Entrada: 10, Código: C05, Lexeme: exemploFuncao,
+QtdCharAntesTrunc: 13, QtdCharDepoisTrunc: 13,
+TipoSimb: Identificador, Linhas: (9)
+--------------------------------------------------------------------------------
+Entrada: 11, Código: C07, Lexeme: parametro,
+QtdCharAntesTrunc: 9, QtdCharDepoisTrunc: 9,
+TipoSimb: Identificador, Linhas: (9)
+--------------------------------------------------------------------------------
+Entrada: 12, Código: C01, Lexeme: "Executando a funcao exemploFu,
+QtdCharAntesTrunc: 35, QtdCharDepoisTrunc: 30,
+TipoSimb: Identificador, Linhas: (10)
+--------------------------------------------------------------------------------
+Entrada: 13, Código: C03, Lexeme: 10,
+QtdCharAntesTrunc: 2, QtdCharDepoisTrunc: 2,
+TipoSimb: Identificador, Linhas: (12)
+--------------------------------------------------------------------------------
+Entrada: 14, Código: C03, Lexeme: 20,
+QtdCharAntesTrunc: 2, QtdCharDepoisTrunc: 2,
+TipoSimb: Identificador, Linhas: (13)
+--------------------------------------------------------------------------------
+Entrada: 15, Código: C03, Lexeme: 1,
+QtdCharAntesTrunc: 1, QtdCharDepoisTrunc: 1,
+TipoSimb: Identificador, Linhas: (25, 26)
+--------------------------------------------------------------------------------
+Entrada: 16, Código: C01, Lexeme: "Dentro do loop enquanto",
+QtdCharAntesTrunc: 25, QtdCharDepoisTrunc: 25,
+TipoSimb: Identificador, Linhas: (27)
+--------------------------------------------------------------------------------
+Entrada: 17, Código: C01, Lexeme: "Resultado final: ",
+QtdCharAntesTrunc: 19, QtdCharDepoisTrunc: 19,
+TipoSimb: Identificador, Linhas: (33)
+--------------------------------------------------------------------------------

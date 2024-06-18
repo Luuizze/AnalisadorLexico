@@ -39,35 +39,39 @@ Entrada: 8, Código: C07, Lexeme: mensagemgrandeosuficientecomma,
 QtdCharAntesTrunc: 41, QtdCharDepoisTrunc: 30,
 TipoSimb: Identificador, Linhas: (5)
 --------------------------------------------------------------------------------
-Entrada: 9, Código: C05, Lexeme: exemploFuncao,
+Entrada: 9, Código: C07, Lexeme: _,
+QtdCharAntesTrunc: 1, QtdCharDepoisTrunc: 1,
+TipoSimb: Identificador, Linhas: (8)
+--------------------------------------------------------------------------------
+Entrada: 10, Código: C05, Lexeme: exemploFuncao,
 QtdCharAntesTrunc: 13, QtdCharDepoisTrunc: 13,
 TipoSimb: Identificador, Linhas: (9)
 --------------------------------------------------------------------------------
-Entrada: 10, Código: C07, Lexeme: parametro,
+Entrada: 11, Código: C07, Lexeme: parametro,
 QtdCharAntesTrunc: 9, QtdCharDepoisTrunc: 9,
 TipoSimb: Identificador, Linhas: (9)
 --------------------------------------------------------------------------------
-Entrada: 11, Código: C01, Lexeme: "Executando a funcao exemploFu,
+Entrada: 12, Código: C01, Lexeme: "Executando a funcao exemploFu,
 QtdCharAntesTrunc: 35, QtdCharDepoisTrunc: 30,
 TipoSimb: Identificador, Linhas: (10)
 --------------------------------------------------------------------------------
-Entrada: 12, Código: C03, Lexeme: 10,
+Entrada: 13, Código: C03, Lexeme: 10,
 QtdCharAntesTrunc: 2, QtdCharDepoisTrunc: 2,
 TipoSimb: Identificador, Linhas: (12)
 --------------------------------------------------------------------------------
-Entrada: 13, Código: C03, Lexeme: 20,
+Entrada: 14, Código: C03, Lexeme: 20,
 QtdCharAntesTrunc: 2, QtdCharDepoisTrunc: 2,
 TipoSimb: Identificador, Linhas: (13)
 --------------------------------------------------------------------------------
-Entrada: 14, Código: C03, Lexeme: 1,
+Entrada: 15, Código: C03, Lexeme: 1,
 QtdCharAntesTrunc: 1, QtdCharDepoisTrunc: 1,
 TipoSimb: Identificador, Linhas: (25, 26)
 --------------------------------------------------------------------------------
-Entrada: 15, Código: C01, Lexeme: "Dentro do loop enquanto",
+Entrada: 16, Código: C01, Lexeme: "Dentro do loop enquanto",
 QtdCharAntesTrunc: 25, QtdCharDepoisTrunc: 25,
 TipoSimb: Identificador, Linhas: (27)
 --------------------------------------------------------------------------------
-Entrada: 16, Código: C01, Lexeme: "Resultado final: ",
+Entrada: 17, Código: C01, Lexeme: "Resultado final: ",
 QtdCharAntesTrunc: 19, QtdCharDepoisTrunc: 19,
 TipoSimb: Identificador, Linhas: (33)
 --------------------------------------------------------------------------------

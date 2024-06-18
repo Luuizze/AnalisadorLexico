@@ -43,6 +43,8 @@ Lexeme: fimDeclaracoes, Código: A06, ÍndiceTabSimb: 06, Linha: 6.
 --------------------------------------------------------------------------------
 Lexeme: funcoes, Código: A12, ÍndiceTabSimb: 12, Linha: 8.
 --------------------------------------------------------------------------------
+Lexeme: _, Código: C07, ÍndiceTabSimb: 07, Linha: 8.
+--------------------------------------------------------------------------------
 Lexeme: tipoFuncao, Código: A22, ÍndiceTabSimb: 22, Linha: 9.
 --------------------------------------------------------------------------------
 Lexeme: vazio, Código: A26, ÍndiceTabSimb: 26, Linha: 9.
