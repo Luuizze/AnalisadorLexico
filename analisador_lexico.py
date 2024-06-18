@@ -27,13 +27,13 @@ def analisar_lexico(texto):
                     flagFunc = True   
                 if codigo.startswith('C'):
                     # Checa o contexto onde o programa se encontra e define seu código correto
-                    if flagProg:
+                    if flagProg and atomo[0].upper().isalpha():
                         codigo = 'C06'
-                        flagProg = False
-                    elif flagFunc:
+                        flagProg = False                                             
+                    elif flagFunc and atomo[0].upper().isalpha():
                         codigo = 'C05'
                         flagFunc = False
-                    
+                             
                      # Adiciona e atualiza o símbolo na tabela
                     if not adicionar_simbolo(tabela_simbolos, codigo, atomo_trunc, qtd_char_antes, qtd_char_depois, linha_atual):
                         atualizar_simbolo(tabela_simbolos, atomo_trunc, linha_atual)

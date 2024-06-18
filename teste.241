@@ -1,4 +1,4 @@
-programa Exemplo
+programa 4_azul 3Ex3mplo // Teste de escopo + inicial de variavel
 
 declaracoes
     inteiro a, b, resultado;

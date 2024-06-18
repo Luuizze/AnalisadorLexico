@@ -7,9 +7,9 @@ padroes = {
     'consInteiro': r'^\d+',
     'consCadeia': r'^"[^"]*"',
     'consCaracter': r"^'[^']'",
-    'variavel': r'^[a-zA-Z_]\w*',
-    'nomFuncao': r'^[a-zA-Z_]\w*',
-    'nomPrograma': r'^[a-zA-Z_]\w*', 
+    'variavel': r'^[_a-zA-Z]\w*',
+    'nomFuncao': r'^[a-zA-Z]\w*',
+    'nomPrograma': r'^[a-zA-Z]\w*', 
     'comentario_linha': r'^//.*',
     'comentario_bloco': r'^/\*[\s\S]*?\*/'
 }
