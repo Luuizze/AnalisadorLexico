@@ -6,7 +6,7 @@ declaracoes
 fimDeclaracoes
 
 funcoes_= // "=" caracter fora da linguagem para teste de filtragem e _ para teste de escopo
-    tipoFuncao vazio exemploFuncao(cadeia parametro) {
+    tipoFuncao vazio exemplo_Funcao exp (cadeia parametro) { // Teste _ sendo variavel 
         imprime("Executando a funcao exemploFuncao");
         // Comentario de linha teste
         a := 10;

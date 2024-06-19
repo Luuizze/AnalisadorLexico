@@ -48,12 +48,13 @@ def trata_atomos(armazena_atomos):
             flagFunc = True   
         if codigo.startswith('C'):
         # Checa o contexto onde o programa se encontra e define seu código correto
-            if flagProg and atomo[0].upper().isalpha():
+            if flagProg and '_' not in atomo and atomo[0].upper().isalpha():
                 codigo = 'C06'
                 flagProg = False                                             
-            elif flagFunc and atomo[0].upper().isalpha():
+            elif flagFunc and '_' not in atomo and atomo[0].upper().isalpha():
                 codigo = 'C05'
-                flagFunc = False          
+                flagFunc = False
+            
             # Adiciona e atualiza o símbolo na tabela
             if not adicionar_simbolo(tabela_simbolos, codigo, atomo_trunc, qtd_char_antes, qtd_char_depois, linha_atual):
                 atualizar_simbolo(tabela_simbolos, atomo_trunc, linha_atual)
