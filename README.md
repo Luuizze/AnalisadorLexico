@@ -11,6 +11,7 @@ O projeto é composto pelos seguintes arquivos:
 - `analisador_lexico.py`: Responsável por analisar o código-fonte e identificar os tokens.
 - `analisador_sintatico.py`: Define as regras, ler arquivo e gera relatórios `.LEX` e `.TAB` com base nos tokens identificados, basicamente o Script principal.
 - `tabela_simbolos.py`: Gerencia a tabela de símbolos, incluindo inicialização, adição e atualização de símbolos.
+- `setup`: Arquivo de criação do executável do analisador encontrado dentro da pasta build.
 
 ## Uso
 
@@ -18,7 +19,7 @@ O projeto é composto pelos seguintes arquivos:
 
 - Python 3.x
 
-### Executando o Projeto
+### Executando o Projeto pelo Terminal
 
 1. Clone o repositório para sua máquina local.
 
@@ -36,6 +37,31 @@ python analisador_sintatico.py
 3. Quando solicitado, insira o nome do arquivo fonte (sem extensão). O arquivo deve estar no mesmo diretório do script principal e ter a extensão .241.
 
 4. O script processará o arquivo e gerará dois relatórios:
+
+   - <nome_do_arquivo>.LEX: Relatório da análise léxica.
+   - <nome_do_arquivo>.TAB: Relatório da tabela de símbolos.
+
+### Executando o Projeto pelo Executável
+
+1. Clone o repositório para sua máquina local.
+
+```bash
+git clone <URL do repositório>
+```
+
+2. Para criar o executável basta instalar a dependência cx_freeze e rodar o comando.
+
+```bash
+cd <diretório do projeto>
+pip install cx_freeze
+py setup.py build
+```
+
+3. Execute o script principal analisador_sintatico.exe encontrado dentro do diretório <diretório do projeto>\build\exe.win-amd64-3.12.
+
+4. Quando solicitado, insira o nome do arquivo fonte (sem extensão). O arquivo deve estar no mesmo diretório do script principal e será gerado dentro da pasta do executável e ter a extensão .241, caso não esteja garanta que o arquivo que você quer testar esteja lá.
+
+5. O script processará o arquivo e gerará dois relatórios:
 
    - <nome_do_arquivo>.LEX: Relatório da análise léxica.
    - <nome_do_arquivo>.TAB: Relatório da tabela de símbolos.
@@ -58,6 +84,10 @@ python analisador_sintatico.py
 
 - Define a estrutura da tabela de símbolos.
 - Contém funções para inicializar, adicionar e atualizar símbolos na tabela.
+
+`setup.py`
+
+- Define os padrões de criação do executável do analisador lexico.
 
 ## Contribuidores
 

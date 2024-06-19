@@ -1,5 +1,7 @@
+from time import sleep
 from tabela_simbolos import adicionar_simbolo, atualizar_simbolo, inicializar_tabela_simbolos
 from analisador_lexico import analisar_lexico
+import sys
 # Função para gerar relatório .LEX
 def gerar_relatorio_lex(nome_arquivo, armazena_atomos, equipe_info):
     with open(f"{nome_arquivo}.LEX", 'w', encoding='utf-8') as arquivo:
@@ -84,6 +86,8 @@ def main():
         gerar_relatorio_lex(nome_arquivo, atomos_retornados, equipe_info)
         gerar_relatorio_tab(nome_arquivo, tabela_simbolos, equipe_info)
         print("Análise léxica concluída. Relatórios .LEX e .TAB gerados.")
+       
 
 if __name__ == "__main__":
     main()
+    sleep(3)

@@ -1,0 +1,27 @@
+# Arquivos e diretórios a serem ignorados para projetos Python
+
+# Arquivos gerados pelo cx_Freeze
+/dist/
+/build/
+/*.exe
+
+# Bytecode Python
+*.pyc
+__pycache__/
+
+# Arquivos de ambiente
+.env
+venv/
+.env.*
+
+# Arquivos de log e backup
+*.log
+*.bak
+
+# Arquivos de configuração específicos do sistema
+.DS_Store
+Thumbs.db
+
+# Outros arquivos e diretórios gerados automaticamente
+*.idea/
+*.vscode/
