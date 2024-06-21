@@ -55,12 +55,12 @@ Entrada: 12, Código: C07, Lexeme: parametro,
 QtdCharAntesTrunc: 9, QtdCharDepoisTrunc: 9,
 TipoSimb: Identificador, Linhas: (9)
 --------------------------------------------------------------------------------
-Entrada: 13, Código: C01, Lexeme: "Executando a funcao exemploFu,
+Entrada: 13, Código: C01, Lexeme: "Executando a funcao exemploFun",
 QtdCharAntesTrunc: 35, QtdCharDepoisTrunc: 30,
 TipoSimb: Identificador, Linhas: (10)
 --------------------------------------------------------------------------------
-Entrada: 14, Código: C03, Lexeme: 10,
-QtdCharAntesTrunc: 2, QtdCharDepoisTrunc: 2,
+Entrada: 14, Código: C04, Lexeme: 12345.6789012345678901234567890,
+QtdCharAntesTrunc: 36, QtdCharDepoisTrunc: 30,
 TipoSimb: Identificador, Linhas: (12)
 --------------------------------------------------------------------------------
 Entrada: 15, Código: C03, Lexeme: 20,

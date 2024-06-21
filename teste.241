@@ -2,14 +2,14 @@ programa 4_azul 3Ex3mplo // Teste de escopo + inicial de variavel
 
 declaracoes
     inteiro a, b, resultado;
-    cadeia mensagemgrandeosuficientecommaisde30chars; // teste truncagem de 30 caracteres
+    cadeia mensagemgrandeosuficientecommaisde30chars; // teste truncagem de 30 caracteres de variavel
 fimDeclaracoes
 
 funcoes_= // "=" caracter fora da linguagem para teste de filtragem e _ para teste de escopo
     tipoFuncao vazio exemplo_Funcao exp (cadeia parametro) { // Teste _ sendo variavel
         imprime("Executando a funcao exemploFuncao");
         // Comentario de linha teste
-        a := 10;
+        a := 12345.678901234567890123456789012345;
         b := 20;
         se a > b
             resultado := a;

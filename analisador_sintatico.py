@@ -42,8 +42,20 @@ def trata_atomos(armazena_atomos):
     flagProg = False
     for atomo, codigo, linha_atual in armazena_atomos:
         atomo_trunc = atomo[:30] # Trunca o átomo para um máximo de 30 caracteres
-        qtd_char_antes = len(atomo)
-        qtd_char_depois = len(atomo_trunc) 
+        if codigo == 'C01' and len(atomo) > 30:
+            atomo_trunc = atomo[:32]
+            if atomo_trunc[-1] != '"':
+                atomo_trunc = atomo_trunc[:-1] + '"'
+                qtd_char_antes = len(atomo)
+                qtd_char_depois = len(atomo_trunc) - 2
+        elif codigo == 'C04' and len(atomo) > 30:
+            cont = atomo.count('.')
+            atomo_trunc = atomo[:30+cont]
+            qtd_char_antes = len(atomo)
+            qtd_char_depois = len(atomo_trunc) - cont
+        else:
+            qtd_char_antes = len(atomo)
+            qtd_char_depois = len(atomo_trunc)  
         if atomo.upper() == 'PROGRAMA':
             flagProg = True
         elif atomo.upper() == 'FUNCOES':
