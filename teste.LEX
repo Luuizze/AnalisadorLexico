@@ -89,99 +89,117 @@ Lexeme: 20, Código: C03, ÍndiceTabSimb: 03, Linha: 13.
 --------------------------------------------------------------------------------
 Lexeme: ;, Código: B07, ÍndiceTabSimb: 07, Linha: 13.
 --------------------------------------------------------------------------------
-Lexeme: se, Código: A20, ÍndiceTabSimb: 20, Linha: 14.
+Lexeme: c, Código: C07, ÍndiceTabSimb: 07, Linha: 14.
 --------------------------------------------------------------------------------
-Lexeme: a, Código: C07, ÍndiceTabSimb: 07, Linha: 14.
+Lexeme: :=, Código: B06, ÍndiceTabSimb: 06, Linha: 14.
 --------------------------------------------------------------------------------
-Lexeme: >, Código: B22, ÍndiceTabSimb: 22, Linha: 14.
+Lexeme: 'A', Código: C02, ÍndiceTabSimb: 02, Linha: 14.
 --------------------------------------------------------------------------------
-Lexeme: b, Código: C07, ÍndiceTabSimb: 07, Linha: 14.
+Lexeme: ;, Código: B07, ÍndiceTabSimb: 07, Linha: 14.
 --------------------------------------------------------------------------------
-Lexeme: resultado, Código: C07, ÍndiceTabSimb: 07, Linha: 15.
+Lexeme: d, Código: C07, ÍndiceTabSimb: 07, Linha: 15.
 --------------------------------------------------------------------------------
 Lexeme: :=, Código: B06, ÍndiceTabSimb: 06, Linha: 15.
 --------------------------------------------------------------------------------
-Lexeme: a, Código: C07, ÍndiceTabSimb: 07, Linha: 15.
+Lexeme: AB, Código: C07, ÍndiceTabSimb: 07, Linha: 15.
 --------------------------------------------------------------------------------
 Lexeme: ;, Código: B07, ÍndiceTabSimb: 07, Linha: 15.
 --------------------------------------------------------------------------------
-Lexeme: senao, Código: A21, ÍndiceTabSimb: 21, Linha: 16.
+Lexeme: "@", Código: C01, ÍndiceTabSimb: 01, Linha: 16.
 --------------------------------------------------------------------------------
-Lexeme: resultado, Código: C07, ÍndiceTabSimb: 07, Linha: 17.
+Lexeme: se, Código: A20, ÍndiceTabSimb: 20, Linha: 17.
 --------------------------------------------------------------------------------
-Lexeme: :=, Código: B06, ÍndiceTabSimb: 06, Linha: 17.
+Lexeme: a, Código: C07, ÍndiceTabSimb: 07, Linha: 17.
+--------------------------------------------------------------------------------
+Lexeme: >, Código: B22, ÍndiceTabSimb: 22, Linha: 17.
 --------------------------------------------------------------------------------
 Lexeme: b, Código: C07, ÍndiceTabSimb: 07, Linha: 17.
 --------------------------------------------------------------------------------
-Lexeme: ;, Código: B07, ÍndiceTabSimb: 07, Linha: 17.
+Lexeme: resultado, Código: C07, ÍndiceTabSimb: 07, Linha: 18.
 --------------------------------------------------------------------------------
-Lexeme: fimSe, Código: A11, ÍndiceTabSimb: 11, Linha: 18.
+Lexeme: :=, Código: B06, ÍndiceTabSimb: 06, Linha: 18.
 --------------------------------------------------------------------------------
-Lexeme: retorna, Código: A19, ÍndiceTabSimb: 19, Linha: 19.
+Lexeme: a, Código: C07, ÍndiceTabSimb: 07, Linha: 18.
 --------------------------------------------------------------------------------
-Lexeme: ;, Código: B07, ÍndiceTabSimb: 07, Linha: 19.
+Lexeme: ;, Código: B07, ÍndiceTabSimb: 07, Linha: 18.
 --------------------------------------------------------------------------------
-Lexeme: }, Código: B12, ÍndiceTabSimb: 12, Linha: 20.
+Lexeme: senao, Código: A21, ÍndiceTabSimb: 21, Linha: 19.
 --------------------------------------------------------------------------------
-Lexeme: fimFuncoes, Código: A09, ÍndiceTabSimb: 09, Linha: 21.
+Lexeme: resultado, Código: C07, ÍndiceTabSimb: 07, Linha: 20.
 --------------------------------------------------------------------------------
-Lexeme: enquanto, Código: A04, ÍndiceTabSimb: 04, Linha: 23.
+Lexeme: :=, Código: B06, ÍndiceTabSimb: 06, Linha: 20.
 --------------------------------------------------------------------------------
-Lexeme: a, Código: C07, ÍndiceTabSimb: 07, Linha: 23.
+Lexeme: b, Código: C07, ÍndiceTabSimb: 07, Linha: 20.
 --------------------------------------------------------------------------------
-Lexeme: <=, Código: B20, ÍndiceTabSimb: 20, Linha: 23.
+Lexeme: ;, Código: B07, ÍndiceTabSimb: 07, Linha: 20.
 --------------------------------------------------------------------------------
-Lexeme: b, Código: C07, ÍndiceTabSimb: 07, Linha: 23.
+Lexeme: fimSe, Código: A11, ÍndiceTabSimb: 11, Linha: 21.
 --------------------------------------------------------------------------------
-Lexeme: a, Código: C07, ÍndiceTabSimb: 07, Linha: 25.
+Lexeme: retorna, Código: A19, ÍndiceTabSimb: 19, Linha: 22.
 --------------------------------------------------------------------------------
-Lexeme: :=, Código: B06, ÍndiceTabSimb: 06, Linha: 25.
+Lexeme: ;, Código: B07, ÍndiceTabSimb: 07, Linha: 22.
 --------------------------------------------------------------------------------
-Lexeme: a, Código: C07, ÍndiceTabSimb: 07, Linha: 25.
+Lexeme: }, Código: B12, ÍndiceTabSimb: 12, Linha: 23.
 --------------------------------------------------------------------------------
-Lexeme: +, Código: B16, ÍndiceTabSimb: 16, Linha: 25.
+Lexeme: fimFuncoes, Código: A09, ÍndiceTabSimb: 09, Linha: 24.
 --------------------------------------------------------------------------------
-Lexeme: 1, Código: C03, ÍndiceTabSimb: 03, Linha: 25.
+Lexeme: enquanto, Código: A04, ÍndiceTabSimb: 04, Linha: 26.
 --------------------------------------------------------------------------------
-Lexeme: ;, Código: B07, ÍndiceTabSimb: 07, Linha: 25.
+Lexeme: a, Código: C07, ÍndiceTabSimb: 07, Linha: 26.
 --------------------------------------------------------------------------------
-Lexeme: b, Código: C07, ÍndiceTabSimb: 07, Linha: 26.
---------------------------------------------------------------------------------
-Lexeme: :=, Código: B06, ÍndiceTabSimb: 06, Linha: 26.
+Lexeme: <=, Código: B20, ÍndiceTabSimb: 20, Linha: 26.
 --------------------------------------------------------------------------------
 Lexeme: b, Código: C07, ÍndiceTabSimb: 07, Linha: 26.
 --------------------------------------------------------------------------------
-Lexeme: -, Código: B13, ÍndiceTabSimb: 13, Linha: 26.
+Lexeme: a, Código: C07, ÍndiceTabSimb: 07, Linha: 28.
 --------------------------------------------------------------------------------
-Lexeme: 1, Código: C03, ÍndiceTabSimb: 03, Linha: 26.
+Lexeme: :=, Código: B06, ÍndiceTabSimb: 06, Linha: 28.
 --------------------------------------------------------------------------------
-Lexeme: ;, Código: B07, ÍndiceTabSimb: 07, Linha: 26.
+Lexeme: a, Código: C07, ÍndiceTabSimb: 07, Linha: 28.
 --------------------------------------------------------------------------------
-Lexeme: imprime, Código: A13, ÍndiceTabSimb: 13, Linha: 27.
+Lexeme: +, Código: B16, ÍndiceTabSimb: 16, Linha: 28.
 --------------------------------------------------------------------------------
-Lexeme: (, Código: B02, ÍndiceTabSimb: 02, Linha: 27.
+Lexeme: 1, Código: C03, ÍndiceTabSimb: 03, Linha: 28.
 --------------------------------------------------------------------------------
-Lexeme: "Dentro do loop enquanto", Código: C01, ÍndiceTabSimb: 01, Linha: 27.
+Lexeme: ;, Código: B07, ÍndiceTabSimb: 07, Linha: 28.
 --------------------------------------------------------------------------------
-Lexeme: ), Código: B03, ÍndiceTabSimb: 03, Linha: 27.
+Lexeme: b, Código: C07, ÍndiceTabSimb: 07, Linha: 29.
 --------------------------------------------------------------------------------
-Lexeme: ;, Código: B07, ÍndiceTabSimb: 07, Linha: 27.
+Lexeme: :=, Código: B06, ÍndiceTabSimb: 06, Linha: 29.
 --------------------------------------------------------------------------------
-Lexeme: fimEnquanto, Código: A07, ÍndiceTabSimb: 07, Linha: 31.
+Lexeme: b, Código: C07, ÍndiceTabSimb: 07, Linha: 29.
 --------------------------------------------------------------------------------
-Lexeme: imprime, Código: A13, ÍndiceTabSimb: 13, Linha: 33.
+Lexeme: -, Código: B13, ÍndiceTabSimb: 13, Linha: 29.
 --------------------------------------------------------------------------------
-Lexeme: (, Código: B02, ÍndiceTabSimb: 02, Linha: 33.
+Lexeme: 1, Código: C03, ÍndiceTabSimb: 03, Linha: 29.
 --------------------------------------------------------------------------------
-Lexeme: "Resultado final: ", Código: C01, ÍndiceTabSimb: 01, Linha: 33.
+Lexeme: ;, Código: B07, ÍndiceTabSimb: 07, Linha: 29.
 --------------------------------------------------------------------------------
-Lexeme: ,, Código: B04, ÍndiceTabSimb: 04, Linha: 33.
+Lexeme: imprime, Código: A13, ÍndiceTabSimb: 13, Linha: 30.
 --------------------------------------------------------------------------------
-Lexeme: resultado, Código: C07, ÍndiceTabSimb: 07, Linha: 33.
+Lexeme: (, Código: B02, ÍndiceTabSimb: 02, Linha: 30.
 --------------------------------------------------------------------------------
-Lexeme: ), Código: B03, ÍndiceTabSimb: 03, Linha: 33.
+Lexeme: "Dentro do loop enquanto", Código: C01, ÍndiceTabSimb: 01, Linha: 30.
 --------------------------------------------------------------------------------
-Lexeme: ;, Código: B07, ÍndiceTabSimb: 07, Linha: 33.
+Lexeme: ), Código: B03, ÍndiceTabSimb: 03, Linha: 30.
 --------------------------------------------------------------------------------
-Lexeme: fimPrograma, Código: A10, ÍndiceTabSimb: 10, Linha: 35.
+Lexeme: ;, Código: B07, ÍndiceTabSimb: 07, Linha: 30.
+--------------------------------------------------------------------------------
+Lexeme: fimEnquanto, Código: A07, ÍndiceTabSimb: 07, Linha: 34.
+--------------------------------------------------------------------------------
+Lexeme: imprime, Código: A13, ÍndiceTabSimb: 13, Linha: 36.
+--------------------------------------------------------------------------------
+Lexeme: (, Código: B02, ÍndiceTabSimb: 02, Linha: 36.
+--------------------------------------------------------------------------------
+Lexeme: "Resultado final: ", Código: C01, ÍndiceTabSimb: 01, Linha: 36.
+--------------------------------------------------------------------------------
+Lexeme: ,, Código: B04, ÍndiceTabSimb: 04, Linha: 36.
+--------------------------------------------------------------------------------
+Lexeme: resultado, Código: C07, ÍndiceTabSimb: 07, Linha: 36.
+--------------------------------------------------------------------------------
+Lexeme: ), Código: B03, ÍndiceTabSimb: 03, Linha: 36.
+--------------------------------------------------------------------------------
+Lexeme: ;, Código: B07, ÍndiceTabSimb: 07, Linha: 36.
+--------------------------------------------------------------------------------
+Lexeme: fimPrograma, Código: A10, ÍndiceTabSimb: 10, Linha: 38.
 --------------------------------------------------------------------------------

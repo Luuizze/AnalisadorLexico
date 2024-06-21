@@ -8,74 +8,94 @@ Código da Equipe: 5
 RELATÓRIO DA TABELA DE SÍMBOLOS. Texto fonte analisado: teste.241
 --------------------------------------------------------------------------------
 Entrada: 1, Código: C03, Lexeme: 4,
-QtdCharAntesTrunc: 1, QtdCharDepoisTrunc: 1,
-TipoSimb: Identificador, Linhas: (1)
+QtdCharAntesTrunc: 8, QtdCharDepoisTrunc: 8,
+TipoSimb: INT, Linhas: (1)
 --------------------------------------------------------------------------------
 Entrada: 2, Código: C07, Lexeme: _azul,
 QtdCharAntesTrunc: 5, QtdCharDepoisTrunc: 5,
-TipoSimb: Identificador, Linhas: (1)
+TipoSimb: VAR, Linhas: (1)
 --------------------------------------------------------------------------------
 Entrada: 3, Código: C03, Lexeme: 3,
-QtdCharAntesTrunc: 1, QtdCharDepoisTrunc: 1,
-TipoSimb: Identificador, Linhas: (1)
+QtdCharAntesTrunc: 5, QtdCharDepoisTrunc: 5,
+TipoSimb: INT, Linhas: (1)
 --------------------------------------------------------------------------------
 Entrada: 4, Código: C06, Lexeme: Ex3mplo,
 QtdCharAntesTrunc: 7, QtdCharDepoisTrunc: 7,
-TipoSimb: Identificador, Linhas: (1)
+TipoSimb: Program, Linhas: (1)
 --------------------------------------------------------------------------------
 Entrada: 5, Código: C07, Lexeme: a,
 QtdCharAntesTrunc: 1, QtdCharDepoisTrunc: 1,
-TipoSimb: Identificador, Linhas: (4, 12, 14, 15, 23)
+TipoSimb: VAR, Linhas: (4, 12, 17, 18, 26)
 --------------------------------------------------------------------------------
 Entrada: 6, Código: C07, Lexeme: b,
 QtdCharAntesTrunc: 1, QtdCharDepoisTrunc: 1,
-TipoSimb: Identificador, Linhas: (4, 13, 14, 17, 23)
+TipoSimb: VAR, Linhas: (4, 13, 17, 20, 26)
 --------------------------------------------------------------------------------
 Entrada: 7, Código: C07, Lexeme: resultado,
 QtdCharAntesTrunc: 9, QtdCharDepoisTrunc: 9,
-TipoSimb: Identificador, Linhas: (4, 15, 17, 33)
+TipoSimb: VAR, Linhas: (4, 18, 20, 36)
 --------------------------------------------------------------------------------
 Entrada: 8, Código: C07, Lexeme: mensagemgrandeosuficientecomma,
 QtdCharAntesTrunc: 41, QtdCharDepoisTrunc: 30,
-TipoSimb: Identificador, Linhas: (5)
+TipoSimb: VAR, Linhas: (5)
 --------------------------------------------------------------------------------
 Entrada: 9, Código: C07, Lexeme: _,
 QtdCharAntesTrunc: 1, QtdCharDepoisTrunc: 1,
-TipoSimb: Identificador, Linhas: (8)
+TipoSimb: VAR, Linhas: (8)
 --------------------------------------------------------------------------------
 Entrada: 10, Código: C07, Lexeme: exemplo_Funcao,
 QtdCharAntesTrunc: 14, QtdCharDepoisTrunc: 14,
-TipoSimb: Identificador, Linhas: (9)
+TipoSimb: VAR, Linhas: (9)
 --------------------------------------------------------------------------------
 Entrada: 11, Código: C05, Lexeme: exp,
 QtdCharAntesTrunc: 3, QtdCharDepoisTrunc: 3,
-TipoSimb: Identificador, Linhas: (9)
+TipoSimb: Function, Linhas: (9)
 --------------------------------------------------------------------------------
 Entrada: 12, Código: C07, Lexeme: parametro,
 QtdCharAntesTrunc: 9, QtdCharDepoisTrunc: 9,
-TipoSimb: Identificador, Linhas: (9)
+TipoSimb: VAR, Linhas: (9)
 --------------------------------------------------------------------------------
 Entrada: 13, Código: C01, Lexeme: "Executando a funcao exemploFun",
 QtdCharAntesTrunc: 35, QtdCharDepoisTrunc: 30,
-TipoSimb: Identificador, Linhas: (10)
+TipoSimb: STR, Linhas: (10)
 --------------------------------------------------------------------------------
 Entrada: 14, Código: C04, Lexeme: 12345.6789012345678901234567890,
 QtdCharAntesTrunc: 36, QtdCharDepoisTrunc: 30,
-TipoSimb: Identificador, Linhas: (12)
+TipoSimb: PFO, Linhas: (12)
 --------------------------------------------------------------------------------
 Entrada: 15, Código: C03, Lexeme: 20,
 QtdCharAntesTrunc: 2, QtdCharDepoisTrunc: 2,
-TipoSimb: Identificador, Linhas: (13)
+TipoSimb: INT, Linhas: (13)
 --------------------------------------------------------------------------------
-Entrada: 16, Código: C03, Lexeme: 1,
+Entrada: 16, Código: C07, Lexeme: c,
 QtdCharAntesTrunc: 1, QtdCharDepoisTrunc: 1,
-TipoSimb: Identificador, Linhas: (25, 26)
+TipoSimb: VAR, Linhas: (14)
 --------------------------------------------------------------------------------
-Entrada: 17, Código: C01, Lexeme: "Dentro do loop enquanto",
+Entrada: 17, Código: C02, Lexeme: 'A',
+QtdCharAntesTrunc: 3, QtdCharDepoisTrunc: 1,
+TipoSimb: CHC, Linhas: (14)
+--------------------------------------------------------------------------------
+Entrada: 18, Código: C07, Lexeme: d,
+QtdCharAntesTrunc: 1, QtdCharDepoisTrunc: 1,
+TipoSimb: VAR, Linhas: (15)
+--------------------------------------------------------------------------------
+Entrada: 19, Código: C07, Lexeme: AB,
+QtdCharAntesTrunc: 2, QtdCharDepoisTrunc: 2,
+TipoSimb: VAR, Linhas: (15)
+--------------------------------------------------------------------------------
+Entrada: 20, Código: C01, Lexeme: "@",
+QtdCharAntesTrunc: 3, QtdCharDepoisTrunc: 3,
+TipoSimb: VAR, Linhas: (16)
+--------------------------------------------------------------------------------
+Entrada: 21, Código: C03, Lexeme: 1,
+QtdCharAntesTrunc: 1, QtdCharDepoisTrunc: 1,
+TipoSimb: INT, Linhas: (28, 29)
+--------------------------------------------------------------------------------
+Entrada: 22, Código: C01, Lexeme: "Dentro do loop enquanto",
 QtdCharAntesTrunc: 25, QtdCharDepoisTrunc: 25,
-TipoSimb: Identificador, Linhas: (27)
+TipoSimb: VAR, Linhas: (30)
 --------------------------------------------------------------------------------
-Entrada: 18, Código: C01, Lexeme: "Resultado final: ",
+Entrada: 23, Código: C01, Lexeme: "Resultado final: ",
 QtdCharAntesTrunc: 19, QtdCharDepoisTrunc: 19,
-TipoSimb: Identificador, Linhas: (33)
+TipoSimb: VAR, Linhas: (36)
 --------------------------------------------------------------------------------

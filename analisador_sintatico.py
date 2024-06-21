@@ -42,20 +42,30 @@ def trata_atomos(armazena_atomos):
     flagProg = False
     for atomo, codigo, linha_atual in armazena_atomos:
         atomo_trunc = atomo[:30] # Trunca o átomo para um máximo de 30 caracteres
-        if codigo == 'C01' and len(atomo) > 30:
+        if codigo == 'C01' and len(atomo) > 30: # String
             atomo_trunc = atomo[:32]
+            tipo = 'STR'
             if atomo_trunc[-1] != '"':
                 atomo_trunc = atomo_trunc[:-1] + '"'
                 qtd_char_antes = len(atomo)
                 qtd_char_depois = len(atomo_trunc) - 2
-        elif codigo == 'C04' and len(atomo) > 30:
+        elif codigo == 'C04' and len(atomo) > 30: # ponto flutuante
             cont = atomo.count('.')
             atomo_trunc = atomo[:30+cont]
             qtd_char_antes = len(atomo)
             qtd_char_depois = len(atomo_trunc) - cont
-        else:
+            tipo = 'PFO'
+        elif codigo == 'C02' and len(atomo) > 1: # Char
+            atomo_trunc = atomo[:3]
+            tipo = 'CHC'
+            qtd_char_antes = len(atomo)
+            qtd_char_depois = len(atomo_trunc) - 2
+        elif codigo == 'C03': # Inteiro
+            tipo = 'INT'
+        else: # Variável
             qtd_char_antes = len(atomo)
             qtd_char_depois = len(atomo_trunc)  
+            tipo = 'VAR'
         if atomo.upper() == 'PROGRAMA':
             flagProg = True
         elif atomo.upper() == 'FUNCOES':
@@ -64,13 +74,15 @@ def trata_atomos(armazena_atomos):
         # Checa o contexto onde o programa se encontra e define seu código correto
             if flagProg and '_' not in atomo and atomo[0].upper().isalpha():
                 codigo = 'C06'
+                tipo = 'Program'
                 flagProg = False                                             
             elif flagFunc and '_' not in atomo and atomo[0].upper().isalpha():
                 codigo = 'C05'
+                tipo = 'Function'
                 flagFunc = False
             
             # Adiciona e atualiza o símbolo na tabela
-            if not adicionar_simbolo(tabela_simbolos, codigo, atomo_trunc, qtd_char_antes, qtd_char_depois, linha_atual):
+            if not adicionar_simbolo(tabela_simbolos, codigo, atomo_trunc, qtd_char_antes, qtd_char_depois, tipo, linha_atual):
                 atualizar_simbolo(tabela_simbolos, atomo_trunc, linha_atual)
         atomos_revisados.append((atomo_trunc, codigo, linha_atual))  
     return tabela_simbolos, atomos_revisados

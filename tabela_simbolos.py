@@ -3,14 +3,14 @@ def inicializar_tabela_simbolos():
     return []
 
 # Função para adicionar elementos na tabela
-def adicionar_simbolo(tabela_simbolos, codigo, lexeme, qtd_char_antes, qtd_char_depois, linha):
+def adicionar_simbolo(tabela_simbolos, codigo, lexeme, qtd_char_antes, qtd_char_depois, tipo ,linha):
     if lexeme not in [entry['lexeme'] for entry in tabela_simbolos]:
         tabela_simbolos.append({
             'codigo': codigo,
             'lexeme': lexeme,
             'qtd_char_antes': qtd_char_antes,
             'qtd_char_depois': qtd_char_depois,
-            'tipo': 'Identificador',
+            'tipo': tipo,
             'linhas': [linha]
         })
         return True

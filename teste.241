@@ -5,12 +5,15 @@ declaracoes
     cadeia mensagemgrandeosuficientecommaisde30chars; // teste truncagem de 30 caracteres de variavel
 fimDeclaracoes
 
-funcoes_= // "=" caracter fora da linguagem para teste de filtragem e _ para teste de escopo
+funcoes_@ // "@" caracter fora da linguagem para teste de filtragem e _ para teste de escopo
     tipoFuncao vazio exemplo_Funcao exp (cadeia parametro) { // Teste _ sendo variavel
         imprime("Executando a funcao exemploFuncao");
         // Comentario de linha teste
         a := 12345.678901234567890123456789012345;
         b := 20;
+        c := 'A'; // Char
+        d := 'AB'; // considera errado, aspas simples são filtradas e AB é variavel 
+        "@" // caracter fora da linguagem dentro de string
         se a > b
             resultado := a;
         senao
