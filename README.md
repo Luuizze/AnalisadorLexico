@@ -11,7 +11,6 @@ O projeto é composto pelos seguintes arquivos:
 - `analisador_lexico.py`: Responsável por analisar o código-fonte e identificar os tokens.
 - `analisador_sintatico.py`: Define as regras, ler arquivo e gera relatórios `.LEX` e `.TAB` com base nos tokens identificados, basicamente o Script principal.
 - `tabela_simbolos.py`: Gerencia a tabela de símbolos, incluindo inicialização, adição e atualização de símbolos.
-- `setup`: Arquivo de criação do executável do analisador encontrado dentro da pasta build.
 
 ## Uso
 
@@ -53,11 +52,11 @@ git clone <URL do repositório>
 
 ```bash
 cd <diretório do projeto>
-pip install cx_freeze
-py setup.py build
+pip install pyinstaller
+pyinstaller --onefile analisador_sintatico.py
 ```
 
-3. Execute o script principal analisador_sintatico.exe encontrado dentro do diretório <diretório do projeto>\build\exe.win-amd64-3.12.
+3. Execute o script principal analisador_sintatico.exe encontrado dentro do diretório <diretório do projeto>\dist.
 
 4. Quando solicitado, insira o nome do arquivo fonte (sem extensão). O arquivo deve estar no mesmo diretório do script principal e será gerado dentro da pasta do executável e ter a extensão .241, caso não esteja garanta que o arquivo que você quer testar esteja lá.
 
@@ -84,10 +83,6 @@ py setup.py build
 
 - Define a estrutura da tabela de símbolos.
 - Contém funções para inicializar, adicionar e atualizar símbolos na tabela.
-
-`setup.py`
-
-- Define os padrões de criação do executável do analisador lexico.
 
 ## Contribuidores
 
